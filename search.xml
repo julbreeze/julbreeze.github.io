@@ -112,4 +112,29 @@
         <tag>java8</tag>
       </tags>
   </entry>
+  <entry>
+    <title>hexo 环境准备</title>
+    <url>/2024/08/19/%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87/</url>
+    <content><![CDATA[<h1 id="1-安装-git"><a href="#1-安装-git" class="headerlink" title="1. 安装 git"></a>1. 安装 git</h1><h2 id="1-1-官网下载"><a href="#1-1-官网下载" class="headerlink" title="1.1. 官网下载"></a>1.1. 官网下载</h2><p><code>git</code> 官网下载：<a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
+<p><img src="https://cdn.nlark.com/yuque/0/2024/png/34327837/1721268107363-f130f688-1b6f-4445-97a6-f5db5a3d67eb.png"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/404.jpg"'></p>
+<p>官网下载比较慢，需要耐心等待。</p>
+<p>下载好之后，直接一路 <code>next</code> 无脑安装即可。</p>
+<h2 id="1-2-测试是否安装成功"><a href="#1-2-测试是否安装成功" class="headerlink" title="1.2. 测试是否安装成功"></a>1.2. 测试是否安装成功</h2><p>在 <code>cmd</code> 中 执行 <code>git -v</code> 查看版本</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2024/png/34327837/1721269066261-5bf9424d-fde1-43e8-a36b-ff0dab21a746.png"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/404.jpg"'></p>
+<h2 id="1-3-配置"><a href="#1-3-配置" class="headerlink" title="1.3. 配置"></a>1.3. 配置</h2><p>鼠标右键打开 <code>git bash here</code></p>
+<p><img src="https://cdn.nlark.com/yuque/0/2024/png/34327837/1721269370952-5c99e528-38bb-48fa-8172-320eba63279b.png"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/404.jpg"'></p>
+<p>执行命令绑定 github</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的GitHub用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;你的GitHub注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>可通过 <code>git config --global --list</code>命令查询配置信息</p>
+<h1 id="2-安装-nodejs"><a href="#2-安装-nodejs" class="headerlink" title="2. 安装 nodejs"></a>2. 安装 nodejs</h1><h2 id="2-1-下载-nodejs"><a href="#2-1-下载-nodejs" class="headerlink" title="2.1. 下载 nodejs"></a>2.1. 下载 nodejs</h2><p><a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p>
+<p><img src="https://cdn.nlark.com/yuque/0/2024/png/34327837/1721270015030-01d19f1c-91f0-487f-a9ff-45d8b41d9609.png"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/404.jpg"'></p>
+<p>无脑安装后，测试是否安装成功。</p>
+<p>在 <code>cmd</code> 中，使用 <code>node -v</code> 和 <code>npm -v</code> 命令查看版本，可以查询出版本即安装成功。</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2024/png/34327837/1721718971929-2b2085e7-e822-478a-a066-90813c4f5702.png"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/404.jpg"'></p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
 </search>
